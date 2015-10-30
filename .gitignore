@@ -62,3 +62,6 @@ venv/lib/python2.7/*
 
 #Pycharm files
 .idea/*
+
+node_modules
+app/static/css/*
