@@ -7,6 +7,9 @@ addons:
   firefox: "41.0"
 # command to install dependencies
 
+before install:
+  - apt-get install -y libyajl2
+
 install:
   - virtualenv --no-site-packages venv
   - source venv/bin/activate
