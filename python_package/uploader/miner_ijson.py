@@ -1,6 +1,9 @@
 __author__ = 'Stephen Kan'
 
-import ijson.backends.yajl2 as ijson
+try:
+    import ijson.backends.yajl2 as ijson
+except ijson.backends.YAJLImportError:
+    import ijson.backends.yajl as ijson
 import sys
 import traceback
 import ontology_uploader

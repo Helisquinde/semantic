@@ -7,7 +7,7 @@ addons:
   firefox: "41.0"
   apt:
     packages:
-      - libyajl2
+      - libyajl1
 # command to install dependencies
 
 install:
